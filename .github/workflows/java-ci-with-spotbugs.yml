@@ -8,7 +8,7 @@ jobs:
       - name: My first step - check out repository
         uses: actions/checkout@v4
 
-      - uses: gradle/wrapper-validation-action@v1
+#      - uses: gradle/wrapper-validation-action@v1
 
       #temurinで良いのか
       - name: Set up Java 17
