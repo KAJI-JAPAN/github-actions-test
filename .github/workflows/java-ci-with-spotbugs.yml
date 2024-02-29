@@ -19,7 +19,7 @@ jobs:
           cache: "gradle"
 
       - name: Set up gradle
-        uses: gradle/gradle-build-action@v4
+        uses: gradle/gradle-build-action@v3
         with:
           gradle-version: 7.6
 
