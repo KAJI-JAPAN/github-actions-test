@@ -26,9 +26,9 @@ jobs:
       - name: Execute Gradle build
         run: ./gradlew build
 
-#      - name: Run SpotBugs
-#        run: |
-#          ./gradlew spotbugsMain
+      - name: Run SpotBugs
+        run: |
+          ./gradlew spotbugsMain
 
 #name: Java CI with SpotBugs
 #
